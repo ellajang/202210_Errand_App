@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Errand App</title>
+    <style>a { text-decoration: none; color: white; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+    </style>
 </head>
 <body>
     <div class="status-bar">
@@ -22,22 +24,26 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="main.html"><i class="fa-solid fa-house"></i></a>
+                <a class="nav__link" href="main.html"><i class="fa-solid fa-house fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="errandmake.html">
-                    <i class="fa-solid fa-pencil"></i>
+                    <span class="nav__circle badge">
+                    <i class="fa-solid fa-pencil fa-2x"></i></span>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="mypage.html"><i class="fa-solid fa-user"></i></a>
+                <a class="nav__link" href="mypage.html"><i class="fa-solid fa-user fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="search.html">
-                    <span class="nav__circle"></span>  
-                <i class="fas fa-search"></i></a>
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
             </li>
         </ul>
     </nav>
+    <div id="screensize">
+        <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"
