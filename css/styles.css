@@ -71,7 +71,7 @@ table {
 
 .nav__circle {
   position: absolute;
-  left: -26px;
+  left: -30px;
   bottom: -45px;
   border-radius: 50%;
   width: 125px;
@@ -87,6 +87,42 @@ table {
   justify-content: center;
   align-items: center;
   font-weight: 100;
+}
+
+.nav1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #11234b;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list1 {
+  display: flex;
+}
+
+.nav__btn1 {
+  position: relative;
+  margin: 10px 0px;
+  padding: 10px 1px;
+}
+
+.nav__btn2 {
+  position: relative;
+  margin: 20px 50px;
+  padding: 1px 27px;
+}
+
+.nav__btn3 {
+  position: relative;
+  margin: 21px 73px;
+}
+
+.nav__btn4 {
+  position: relative;
+  margin: 21px 2px;
 }
 
 #screensize {
@@ -203,6 +239,52 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+}
+
+#profileBttn {
+  cursor: pointer;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebcb47;
+  padding: 0.3em 2em 0.3em;
+  color: white;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 10px 190px;
+  position: relative;
+}
+
+.form-errand {
+  margin: 40px 40px;
+  padding: 25px 5px;
+  border: 2px solid #11234b;
+  position: relative;
+}
+
+.form-errand:hover:before {
+  border-top: 15px solid #11234b;
+}
+
+.form-errand:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 30px solid #11234b;
+  border-left: 30px solid rgba(0, 0, 0, 0);
+  width: 0;
+}
+
+.form-errand_name {
+  font-size: 30px;
+  margin: 10px 10px;
+}
+
+.form-errand_detail {
+  font-size: 18px;
+  margin: 20px 10px;
 }
 
 .form_sign-in-title {
@@ -427,6 +509,41 @@ ul.agree_form-box {
   width: 30px;
 }
 
+.search-bar {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.alt-header__column {
+  all: unset;
+  padding: 0px 40px;
+  font-size: 30px;
+  width: 0%;
+  position: relative;
+  right: 40px;
+}
+
+.search-bar__column {
+  padding: 10px 40px;
+  font-size: 20px;
+  right: 40px;
+  caret-color: #11234b;
+}
+
+#searchicon {
+  font-size: 21px;
+  width: 90%;
+}
+
+.search-bar__input {
+  width: 90%;
+  height: 30px;
+  border-radius: 3px;
+}
+
 .search-bar_xl {
   margin-top: 60px;
   display: flex;
@@ -492,37 +609,6 @@ input::-webkit-search-results-decoration {
   font-size: 20px;
   position: relative;
   top: 5px;
-}
-
-.form-errand {
-  margin: 40px 40px;
-  padding: 25px 5px;
-  border: 2px solid #11234b;
-  position: relative;
-}
-
-.form-errand:hover:before {
-  border-top: 15px solid #11234b;
-}
-
-.form-errand:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-top: 30px solid #11234b;
-  border-left: 30px solid rgba(0, 0, 0, 0);
-  width: 0;
-}
-
-.form-errand_name {
-  font-size: 30px;
-  margin: 10px 10px;
-}
-
-.form-errand_detail {
-  font-size: 18px;
-  margin: 20px 10px;
 }
 
 .person_phone_info_name {
@@ -604,6 +690,51 @@ input::-webkit-search-results-decoration {
   position: relative;
   left: 60px;
   bottom: 34px;
+}
+
+#profilesetting_header {
+  margin: 90px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.mypage_myinfo {
+  margin: 50px 20px;
+  font-size: larger;
+  color: #11234b;
+}
+
+.myinfo_nickname {
+  font-size: 40px;
+}
+
+.main-mypage {
+  margin: 30px 19px;
+}
+
+.mypage_profile-setting i {
+  padding: 20px 30px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mypage_profile-setting {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+}
+
+.mypage_profile-setting-column:last-child {
+  opacity: 0.5;
+}
+
+#home1 {
+  color: white;
+  cursor: pointer;
 }
 
 body {

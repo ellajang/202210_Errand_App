@@ -6,6 +6,7 @@
 @import "./components/screensize.scss";
 @import "./components/status-bar.scss";
 @import "./components/btn.scss";
+@import "./components/errandform.scss";
 //Screens
 @import "./screens/index.scss";
 @import "./screens/termsofagree.scss";
@@ -15,8 +16,10 @@
 @import "./screens/rating.scss";
 @import "./screens/errandongoing.scss";
 @import "./screens/errandconfirm.scss";
-@import "./screens/cartegory.scss";
+@import "./screens/category.scss";
 @import "./screens/errandmake.scss";
+@import "./screens/profilesetting.scss";
+@import "./screens/mypage.scss";
     
 body{
     font-family: 'Poor Story', cursive;
