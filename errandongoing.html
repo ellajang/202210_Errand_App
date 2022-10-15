@@ -11,7 +11,13 @@
     </head>
 <body>
     <div class="status-bar">
-        <div class="status-bar__column">거래 중엔 다른 서비스를 사용할 수 없습니다.</div>
+        <div class="status-bar__column">
+            <span></span>
+        </div>
+        <div class="status-bar__column1">* 거래 중엔 다른 서비스를 사용할 수 없습니다 *</div>
+        <div class="status-bar__column">
+            <span></span>
+        </div>
     </div>
     <header class="form-errand">
         <h1 class="form-errand_name">연플 커피</h1>
@@ -20,15 +26,17 @@
     </header>
     <main class="person_phone_info">
         <div class="person_phone_info_name">마님</div>
-            <div class="person_phonenumber">전화번호(안심번호) : 01087654321</div>
+            <div class="person_phonenumber"><i class="fa-solid fa-phone"></i>  전화번호 ( 안심번호 ) : +8210-8765-4321</div>
     </main>
     <main class="person_phone_info">
         <div class="person_phone_info_name">돌쇠</div>
-            <div class="person_phonenumber">전화번호(안심번호) : 01012345678</div>
+            <div class="person_phonenumber"><i class="fa-solid fa-phone"></i>    전화번호 ( 안심번호 ) : +8210-1234-5678</div>
     </main>
     <footer class="btn">
-        <button type="button" onclick="location.href='main.html' ">취소</button>
-        <button type="button" onclick="location.href='rating.html' ">완료</button>
+        <span>
+        <button id="rejectBtn" type="button" onclick="location.href='main.html' ">취소</button>
+        <button id="okBtn" type="button" onclick="location.href='rating.html' ">완료</button>
+        </span>
     </footer>
     <div id="screensize">
         <span>Your screen is too big :( </span>

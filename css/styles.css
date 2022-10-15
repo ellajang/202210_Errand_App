@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -70,7 +71,7 @@ table {
 
 .nav__circle {
   position: absolute;
-  left: -10px;
+  left: -26px;
   bottom: -45px;
   border-radius: 50%;
   width: 125px;
@@ -120,6 +121,88 @@ table {
   justify-content: flex-end;
   align-items: center;
   margin: 0px 18px;
+}
+
+.btn {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btncomplete {
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebcb47;
+  padding: 0.3em 3em 0.3em;
+  color: white;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#agreeBtn {
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebcb47;
+  padding: 0.3em 3em 0.3em;
+  color: white;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#disagreeBtn {
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #11234b;
+  padding: 0.3em 2em 0.3em;
+  color: white;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.agrBtn {
+  margin: 70px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: smaller;
+}
+
+#rejectBtn {
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #11234b;
+  padding: 0.3em 2em 0.3em;
+  color: white;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#okBtn {
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebcb47;
+  padding: 0.3em 2em 0.3em;
+  color: white;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 0px 30px;
 }
 
 .form_sign-in-title {
@@ -264,42 +347,6 @@ ul.agree_form-box {
   border: none;
 }
 
-#agreeBtn {
-  font-size: 18px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  background-color: #ebcb47;
-  padding: 0.3em 3em 0.3em;
-  color: white;
-  line-height: 1.5;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-#disagreeBtn {
-  font-size: 18px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  background-color: #11234b;
-  padding: 0.3em 2em 0.3em;
-  color: white;
-  line-height: 1.5;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-.agrBtn {
-  margin: 70px 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: 600;
-  font-size: smaller;
-}
-
 .form_sign-up {
   margin: 90px 10px;
   text-align: center;
@@ -380,8 +427,187 @@ ul.agree_form-box {
   width: 30px;
 }
 
+.search-bar_xl {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar_xl__column input {
+  all: unset;
+  padding: 20px 50px;
+  border-radius: 9px;
+  background-color: #ebcb47;
+  margin-bottom: 5px;
+  font-size: 20px;
+  width: 80%;
+  position: relative;
+  left: -19px;
+  box-shadow: 5px 5px 10px -1px #f1e2a8;
+  caret-color: #11234b;
+}
+
+.search-bar_xl__column a {
+  all: unset;
+  padding: 1px 18px;
+  font-size: 20px;
+  width: 90%;
+  cursor: pointer;
+  top: -46px;
+  left: 290px;
+  color: white;
+  position: relative;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.ratings {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ratings h1 {
+  color: #11234b;
+  font-size: 75px;
+}
+
+.ratings_star_text {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-bar__column1 {
+  color: white;
+  justify-content: space-between;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.form-errand {
+  margin: 40px 40px;
+  padding: 25px 5px;
+  border: 2px solid #11234b;
+  position: relative;
+}
+
+.form-errand:hover:before {
+  border-top: 15px solid #11234b;
+}
+
+.form-errand:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 30px solid #11234b;
+  border-left: 30px solid rgba(0, 0, 0, 0);
+  width: 0;
+}
+
+.form-errand_name {
+  font-size: 30px;
+  margin: 10px 10px;
+}
+
+.form-errand_detail {
+  font-size: 18px;
+  margin: 20px 10px;
+}
+
+.person_phone_info_name {
+  font-size: large;
+}
+
+.person_phone_info {
+  margin: 10px 50px;
+  padding: 10px 5px;
+}
+
+.person_phonenumber {
+  margin: 10px 0px;
+  padding: 1px 1px;
+}
+
+.person_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 79px;
+}
+
+.person_info_full {
+  float: left;
+  height: 50%;
+  margin-bottom: -10px;
+}
+
+.person_call {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.cartegory_name {
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sub_cartegory_name {
+  padding: 20px 30px;
+}
+
+.selectcartegory {
+  position: relative;
+  padding: 60px 30px;
+  margin: 10px 20px;
+}
+
+.selectcartegory input {
+  border-radius: 3px;
+  border-color: #11234b;
+  padding: 3px 20px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.selectcartegory select {
+  border-radius: 3px;
+  border-color: #11234b;
+  padding: 3px 20px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  border: 2px solid;
+}
+
+.selectcartegory textarea {
+  width: 80%;
+  height: 10.25em;
+  border: 2px solid #11234b;
+  border-radius: 3px;
+  margin: 0px 10px;
+  font-size: smaller;
+  resize: none;
+  padding: 20px 1px;
+  position: relative;
+  left: 60px;
+  bottom: 34px;
+}
+
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Poor Story", cursive;
   background-color: white;
 }
 

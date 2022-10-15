@@ -15,52 +15,48 @@
             <span><a href="main.html"><i class="fa-solid fa-house"></i></a></span>
         </div>
     </div>
-    <form method="get" action="./view.html">
-    <table>
-        <tr>
+    <form class="selectcartegory">
+        <div>
             <td>카테고리 선택</td>
             <td>
                 <select name="cartegory1">
-                <option value="">카테고리</option>
+                <option value="">-----------</option>
                 <option value="연플">연플</option>
                 <option value="학관">학관</option>
                 <option value="etc">Etc</option>
                 </select>
             </td>
-        </tr>
-        <tr>
+        </div>
+        <div>
             <td>심부름 제목</td>
             <td><input type="text" name="writer"></td>
         </tr>
-        <tr>
-            <td>심부름 내용</td>
-            <td>
-                <textarea name="content"></textarea>
-            </td>
-        </tr>
-        <tr>
+        </div>
+        <div>
+            <div>심부름 내용</div></br><textarea name="content"></textarea></br>
+        </div>
+        <div>
+            <td>상품 &nbsp 이름</td>
+            <td><input type="text" name="writer"></td>
+        </div>
+        <div>
+            <td>상품 &nbsp 비용</td>
+            <td><input type="text" name="writer"></td>
+        </div>
+        <div>
             <td>심부름 비용</td>
             <td>
                 <select name="cost">
-                <option value="">------</option>
+                <option value="">-----------</option>
                 <option value="cost_">1,000원</option>
                 <option value="cost_">2,000원</option>
                 <option value="cost_">3,000원</option>
                 </select>
             </td>
-        </tr>
-        <tr>
-            <td>상품 이름</td>
-            <td><input type="text" name="writer"></td>
-        </tr>
-        <tr>
-            <td>상품 비용</td>
-            <td><input type="text" name="writer"></td>
-        </tr>
-    </table>
+        </div>
     </form>
     <footer class="btn">
-        <button type="button" onclick="location.href='main.html' ">등록</button>
+        <button id="btncomplete" type="button" onclick="location.href='main.html' ">등록</button>
     </footer>
     <div id="screensize">
         <span>Your screen is too big :( </span>
