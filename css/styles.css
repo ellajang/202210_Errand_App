@@ -103,28 +103,6 @@ table {
   display: flex;
 }
 
-.nav__btn1 {
-  position: relative;
-  margin: 10px 0px;
-  padding: 10px 1px;
-}
-
-.nav__btn2 {
-  position: relative;
-  margin: 20px 50px;
-  padding: 1px 27px;
-}
-
-.nav__btn3 {
-  position: relative;
-  margin: 21px 73px;
-}
-
-.nav__btn4 {
-  position: relative;
-  margin: 21px 2px;
-}
-
 #screensize {
   position: absolute;
   z-index: 99;
@@ -145,11 +123,15 @@ table {
   }
 }
 .status-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-between;
   padding: 5px 3px;
+  z-index: 1;
   background-color: #11234b;
-  height: 30px;
+  height: 35px;
 }
 
 .status-bar__column {
