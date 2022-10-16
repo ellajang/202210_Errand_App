@@ -244,7 +244,6 @@ table {
 #profileBttn {
   cursor: pointer;
   font-size: 18px;
-  cursor: pointer;
   border: none;
   border-radius: 5px;
   background-color: #ebcb47;
@@ -283,6 +282,37 @@ table {
 }
 
 .form-errand_detail {
+  font-size: 18px;
+  margin: 20px 10px;
+}
+
+.main_errand_box {
+  margin: 40px 40px;
+  padding: 25px 5px;
+  border: 2px solid #11234b;
+  position: relative;
+}
+
+.main_errand_box:hover:before {
+  border-top: 15px solid #11234b;
+}
+
+.main_errand_box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 30px solid #11234b;
+  border-left: 30px solid rgba(0, 0, 0, 0);
+  width: 0;
+}
+
+.errand_name {
+  font-size: 30px;
+  margin: 10px 10px;
+}
+
+.errand_detail {
   font-size: 18px;
   margin: 20px 10px;
 }
@@ -657,16 +687,26 @@ input::-webkit-search-results-decoration {
 
 .selectcartegory {
   position: relative;
-  padding: 60px 30px;
-  margin: 10px 20px;
+  padding: 30px 30px;
+  margin: 0px 10px;
 }
 
 .selectcartegory input {
   border-radius: 3px;
   border-color: #11234b;
-  padding: 3px 20px;
+  padding: 4px 20px;
   font-size: 18px;
   margin-bottom: 40px;
+  margin-left: 35px;
+}
+
+#errandName {
+  border-radius: 3px;
+  border-color: #11234b;
+  padding: 4px 20px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-left: 21px;
 }
 
 .selectcartegory select {
@@ -676,6 +716,17 @@ input::-webkit-search-results-decoration {
   font-size: 18px;
   margin-bottom: 40px;
   border: 2px solid;
+  margin-left: 5px;
+}
+
+#errandCost {
+  border-radius: 3px;
+  border-color: #11234b;
+  padding: 3px 20px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  border: 2px solid;
+  margin-left: 19px;
 }
 
 .selectcartegory textarea {
@@ -683,13 +734,14 @@ input::-webkit-search-results-decoration {
   height: 10.25em;
   border: 2px solid #11234b;
   border-radius: 3px;
-  margin: 0px 10px;
+  margin: 0px 11px;
   font-size: smaller;
   resize: none;
   padding: 20px 1px;
   position: relative;
   left: 60px;
   bottom: 34px;
+  margin-left: 30px;
 }
 
 #profilesetting_header {
@@ -735,6 +787,131 @@ input::-webkit-search-results-decoration {
 #home1 {
   color: white;
   cursor: pointer;
+}
+
+.make_rating {
+  padding: 1px 40px;
+}
+
+.make_rating span {
+  left: 10%;
+}
+
+.make_rating button {
+  padding: 7px 20px;
+  position: relative;
+  left: 36%;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebcb47;
+  color: white;
+}
+
+.make_post button {
+  padding: 7px 20px;
+  position: relative;
+  left: 73%;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebcb47;
+  color: white;
+}
+
+.notice {
+  border: 3px solid #11234b;
+  box-sizing: border-box;
+  padding: 100px 70px;
+  margin: 20% 40px;
+  position: relative;
+}
+
+.version {
+  position: fixed;
+  bottom: 0;
+  padding: 30px 100px;
+  box-sizing: border-box;
+  margin: 11% 15%;
+}
+
+#noiceTitle {
+  margin: 90px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 39px;
+}
+
+.ask_form {
+  box-sizing: border-box;
+  position: relative;
+  padding: 70px 60px;
+}
+
+.ask_form h2 {
+  font-size: x-large;
+}
+
+.contact_form {
+  box-sizing: border-box;
+  position: relative;
+  left: 25%;
+}
+
+.ask {
+  position: fixed;
+  bottom: 0;
+  padding: 30px 107px;
+  margin: 14% 10%;
+}
+
+.row {
+  box-sizing: border-box;
+  position: relative;
+  padding: 2px 0px;
+  top: -40px;
+}
+
+.row input {
+  border-radius: 3px;
+  border-color: #11234b;
+  padding: 3px 0px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.row textarea {
+  width: 53%;
+  height: 10.25em;
+  border: 2px solid #11234b;
+  border-radius: 3px;
+  font-size: smaller;
+  resize: none;
+  padding: 3px 0px;
+}
+
+#submit_button {
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebcb47;
+  padding: 0.3em 2em 0.3em;
+  color: white;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 0px 160px;
+  top: -30px;
+  position: relative;
+}
+
+.required {
+  font-size: larger;
 }
 
 body {
