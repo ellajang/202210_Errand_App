@@ -8,6 +8,7 @@
 
 .form-errand:hover:before {
 	border-top: 15px solid #11234b;
+    box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .form-errand:before {
@@ -17,6 +18,7 @@
 	right: 0;
 	border-top: 30px solid #11234b;
 	border-left: 30px solid rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 10px -1px #11234b;
 	width: 0;
 }
 
@@ -41,6 +43,7 @@
 
 .main_errand_box:hover:before {
 	border-top: 15px solid #11234b;
+    box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .main_errand_box:before {
@@ -50,6 +53,7 @@
 	right: 0;
 	border-top: 30px solid #11234b;
 	border-left: 30px solid rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 10px -1px #11234b;
 	width: 0;
 }
 
