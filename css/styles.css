@@ -159,6 +159,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #agreeBtn {
@@ -172,6 +173,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #disagreeBtn {
@@ -185,9 +187,21 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .agrBtn {
+  margin: 70px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: smaller;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
+}
+
+.agrBtn1 {
   margin: 70px 10px;
   text-align: center;
   display: flex;
@@ -208,6 +222,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 #okBtn {
@@ -221,6 +236,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #profileBttn {
@@ -235,6 +251,7 @@ table {
   flex-direction: column;
   margin: 10px 190px;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .form-errand {
@@ -242,6 +259,7 @@ table {
   padding: 25px 5px;
   border: 2px solid #11234b;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .form-errand:hover:before {
@@ -273,6 +291,7 @@ table {
   padding: 25px 5px;
   border: 2px solid #11234b;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .main_errand_box:hover:before {
@@ -463,6 +482,7 @@ ul.agree_form-box {
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 .form_signup select {
@@ -472,6 +492,7 @@ ul.agree_form-box {
   font-size: 18px;
   margin-bottom: 27px;
   cursor: pointer;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 #signupBtn {
@@ -486,6 +507,7 @@ ul.agree_form-box {
   line-height: 1.5;
   padding: 0.7em 1em 0.7em;
   align-items: center;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 #sigupKakao {
@@ -500,6 +522,7 @@ ul.agree_form-box {
   line-height: 1.5;
   padding: 0.7em 1em 0.7em;
   align-items: center;
+  box-shadow: 5px 5px 10px -1px #fce205;
 }
 
 #blank {
@@ -789,6 +812,7 @@ input::-webkit-search-results-decoration {
   border-radius: 5px;
   background-color: #ebcb47;
   color: white;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .make_post button {
@@ -801,6 +825,7 @@ input::-webkit-search-results-decoration {
   border-radius: 5px;
   background-color: #ebcb47;
   color: white;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .notice {
